@@ -1,5 +1,6 @@
 nuevo = 45
 antiguo = 345
+intermedio = 500
 
 def funcion_sumar(x, z):
     return x + z

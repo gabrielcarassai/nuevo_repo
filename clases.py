@@ -5,6 +5,7 @@ class Carro():
     tipo = "Sedan"
     puertas = 4
     luces = "LED"
+    llantas = "todoterreno"
 
     def encendido(self):
         print(f'mi carro es un {self.marca} color {self.color} tiene un motor a {self.combustible}')
