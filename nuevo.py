@@ -1,11 +1,12 @@
-nuevo = 45
-antiguo = 345
-intermedio = 500
+import libreria.clases as clases
+from libreria.my_mod import listamarcas
 
-def funcion_sumar(x, z):
-    return x + z
+a = 5 
+b = 20
 
-funcion_sumar(nuevo, antiguo)
+clases.sumar(a,b)
+clases.restar(a,b)
+clases.multiplicar(a,b)
+clases.dividir(a,b)
 
-# aquí conexión a github
-# nuevo2 
+print(listamarcas)
